@@ -18,3 +18,9 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: nrfmicro_13
+    shield: splitkb_aurora_sofle_left nice_oled
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nrfmicro_13
+    shield: splitkb_aurora_sofle_right nice_oled
