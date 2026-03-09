@@ -24,3 +24,8 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nrfmicro_13
     shield: splitkb_aurora_sofle_right nice_oled
+  - board: nrfmicro_13
+    shield: sofle_left nice_oled
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nrfmicro_13
+    shield: sofle_right nice_oled
